@@ -1,0 +1,77 @@
+.border{
+    border: 2px solid red ;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Define custom scrollbar styles */
+/* For WebKit based browsers */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* For WebKit based browsers */
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Border radius of the scrollbar thumb */
+}
+
+/* For WebKit based browsers */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+/* For Firefox */
+/* Please note that Firefox supports scrollbar-color and scrollbar-width properties since version 64 */
+/* For older versions, you might need to use custom styling like below */
+/* scrollbar-color: thumbColor trackColor; */
+/* scrollbar-width: thin; or scrollbar-width: none; */
+
+/* Color of the scrollbar thumb */
+/* For Firefox, you can only define the color, not the width or other properties */
+* {
+    scrollbar-color: #888 #333; /* Thumb color and track color */
+}
+
+/* To style the scrollbar track (background) */
+/* Please note that Firefox supports scrollbar-color and scrollbar-width properties since version 64 */
+/* For older versions, you might need to use custom styling like below */
+/* scrollbar-color: thumbColor trackColor; */
+/* scrollbar-width: thin; or scrollbar-width: none; */
+* {
+    scrollbar-track-color: #333; /* Track color */
+}
